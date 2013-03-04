@@ -9,6 +9,22 @@ Checkout to: `~/Library/Developer/Xcode/UserData/CodeSnippets/`
 #pragma clang diagnostic pop
 ```
 
+## dispatch_async global queue
+
+``` obj-c
+dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
+    <#code#>
+});
+```
+
+## dispatch_async main queue
+
+``` obj-c
+dispatch_async(dispatch_get_main_queue(), ^{
+    <#code#>
+});
+```
+
 ## dispatch_once
 
 ``` obj-c
@@ -31,6 +47,18 @@ dispatch_once(&once, ^{
 
     return self;
 }
+```
+
+## Log Class:MethodName
+
+``` obj-c
+NSLog(@"%@:%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+```
+
+## Log Method Name
+
+``` obj-c
+NSLog(@"%@", NSStringFromSelector(_cmd));
 ```
 
 ## Pragma section
