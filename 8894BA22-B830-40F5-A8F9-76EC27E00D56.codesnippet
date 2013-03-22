@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dasyncglobal</string>
+	<string>pdictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
-    &lt;#code#&gt;
-});</string>
+	<string>@property (nonatomic, strong) NSDictionary *&lt;#propertyName#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0866D351-B672-46DA-868F-A764A6FF4CA3</string>
+	<string>8894BA22-B830-40F5-A8F9-76EC27E00D56</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Dispatch a block asyncronously on the global queue</string>
+	<string>@property NSDictionary</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dispatch_async global queue</string>
+	<string>NSDictionary Class Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

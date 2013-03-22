@@ -61,10 +61,40 @@ NSLog(@"%@:%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
 NSLog(@"%@", NSStringFromSelector(_cmd));
 ```
 
+## NSArray Class Property
+
+``` obj-c
+@property (nonatomic, strong) NSArray *<#propertyName#>;
+```
+
+## NSDictionary Class Property
+
+``` obj-c
+@property (nonatomic, strong) NSDictionary *<#propertyName#>;
+```
+
+## NSNumber Class Property
+
+``` obj-c
+@property (nonatomic, copy) NSNumber *<#propertyName#>;
+```
+
+## NSString Class Property
+
+``` obj-c
+@property (nonatomic, copy) NSString *<#propertyName#>;
+```
+
 ## Pragma section
 
 ``` obj-c
 #pragma mark - <#section#>
+```
+
+## Property
+
+``` obj-c
+@property (nonatomic, <#attribute#>) <#ClassName#> *<#propertyName#>;
 ```
 
 ## Requires ARC
